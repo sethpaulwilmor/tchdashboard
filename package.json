@@ -1,0 +1,25 @@
+{
+  "name": "tchdashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/browser-sync  start --server --files='**/*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethpaulwilliams/tchdashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sethpaulwilliams/tchdashboard/issues"
+  },
+  "homepage": "https://github.com/sethpaulwilliams/tchdashboard#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "devDependencies": {}
+}
