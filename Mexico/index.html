@@ -16,12 +16,105 @@
         max-height: 160px;
       }
 
+      body {
+        background-color:darkblue;
+      }
+
+      .header {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      header {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      card-columns {
+        padding: 1rem;
+      }
+
+      .row {
+        margin: 1rem;
+      }
+
+      .card {
+        background-color: white;
+        text-align: center;
+        text-decoration: white;
+        height: 225px;
+      }
+
+      .card img {
+        height: 150px;
+      }
+
+      h1 {
+        color: white;
+      }
+
 
     </style>
   </head>
+  
+  <header>
+    <a href="../home/">
+      <img src="../home/img/tch-logo.png" alt="TCH Logo" class="header">
+    </a>
+</header>
+  
   <body>
-    <h1></h1>
+    <h1>Recursos útiles</h1>
 
+<!-- Cards-->
+<div class="row">
+      
+  <!-- ACLU Know Your Rights -->
+      <div class="col-sm-4">
+        <div class="card">
+          <a target="_blank" href="https://www.aclu.org/files/kyr/MKG17-KYR-PoliceImmigrationFBI-OnePager-Spanish-v01.pdf">
+            <img src="img/ACLU.png" class="card-img-top" alt="ACLU">
+          </a>
+          <div class="card-body">
+            <a target="_blank" href="https://www.aclu.org/files/kyr/MKG17-KYR-PoliceImmigrationFBI-OnePager-Spanish-v01.pdf">
+              <h5 class="card-title">Conoce tus derechos</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+
+  <!-- Office of Refugee and Immigrant Assistance -->
+    <div class="col-sm-4">
+      <div class="card">
+        <a target="_blank" href="https://www.dshs.wa.gov/esa/office-refugee-and-immigrant-assistance">
+          <img src="img/WA Social and Health Services .jpg" class="card-img-top" alt="WA Social and Health Services">
+        </a>
+        <div class="card-body">
+          <a target="_blank" href="https://www.dshs.wa.gov/esa/office-refugee-and-immigrant-assistance">
+            <h5 class="card-title">Asistencia a refugiados e inmigrantes (en inglés)</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+      
+  <!-- Tacoma-Pierce Refugee Health Program -->
+  <div class="col-sm-4">
+      <div class="card">
+        <a target="_blank" href="https://www.tpchd.org/home/showdocument?id=360">
+          <img src="img/Health Department.jpg" class="card-img-top" alt="Tacoma-Pierce Health Department">
+        </a>
+          <div class="card-body">
+            <a target="_blank" href="https://www.tpchd.org/home/showdocument?id=360">
+              <h5 class="card-title">Programa de salud para refugiados (en inglés)</h5>
+            </a>
+          </div>
+        </div>
+  </div>
+
+</div>
+
+<h1>Las Noticias</h1>
 
 <!-- Cards-->
     <div class="card-columns">
